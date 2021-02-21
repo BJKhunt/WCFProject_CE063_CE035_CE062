@@ -51,6 +51,12 @@ namespace StockClient
             isCreate = true;
             Form3 f3 = new Form3();
             f3.ShowDialog();
+            ServiceReference1.Service1Client proxy = new ServiceReference1.Service1Client("BasicHttpBinding_IService1");
+            DataSet ds = proxy.GetStocks();
+            listBox1.DataSource = ds.Tables[0].DefaultView;
+            listBox1.DisplayMember = "Name";
+            listBox1.ValueMember = "Id";
+            proxy.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
