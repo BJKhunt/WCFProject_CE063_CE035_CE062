@@ -51,7 +51,6 @@ namespace StockClient
             isCreate = true;
             Form3 f3 = new Form3();
             f3.ShowDialog();
-	    callMe();
         }
 
         private void button3_Click(object sender, EventArgs e)
