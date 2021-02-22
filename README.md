@@ -9,11 +9,14 @@ as client we have use windows form to use service..
 
 
 In WcfServiceLibrary we implemented IService1 and its implementations Service1, which contains CRUD OperationContract method...
+
 Database1.mdf (StockService) is our database file.
 
 
 In client we have 3 forms and 1st form represent all the stocks in listbox and buttons for doing operation on particular selected stock.
+
 2nd form represent the stock info (like its profile page)
+
 3rd form represent create and update related form...
 
 
