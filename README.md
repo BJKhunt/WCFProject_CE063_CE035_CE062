@@ -2,6 +2,7 @@
 
 
 we have two solution folder: SocProject for WCFService
+
                              StockClient for client
 
 
