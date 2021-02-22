@@ -1,8 +1,7 @@
 # WCFProject_CE063_CE035_CE062
 
 
-we have two solution folder: SocProject for WCFService
-
+we have two solution folder: SocProject for WCFService, 
                              StockClient for client
 
 
